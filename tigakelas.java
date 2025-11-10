@@ -95,7 +95,7 @@ class lingkaran{
 public class tigakelas {
     public static void main(String[] args) {
        
-        segitiga sgt = new segitiga(6, 4, 5, 6, 7);
+        segitiga sgt = new segitiga(4, 2, 3, 6, 5);
         System.out.println("=== Segitiga ===");
         System.out.println("Luas: " + sgt.getLuas());
         System.out.println("Keliling: " + sgt.getKeliling());
@@ -113,6 +113,7 @@ public class tigakelas {
         System.out.printf("Keliling: %.2f\n" , l.getKeliling());
     }
 }
+
 
 
 
